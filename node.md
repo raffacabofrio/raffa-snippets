@@ -1,6 +1,6 @@
 # DICAS NODE 
 
-```nodejs
+```javascript
 
 // abandonar a aplicação.
 process.exit()	
