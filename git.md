@@ -7,8 +7,8 @@ git checkout -b [name_of_your_new_branch]
 # remove uma branch local
 git branch -d krypto
 
-#lista os branches locais
-git branch
+#lista os branches
+git branch -a
 
 # mescla branches
 git merge nome-outra-branch
@@ -94,36 +94,7 @@ df239176e1a2ffac927d8b496ea00d5488481db5 a
 git config --global user.name "Raffaello Damgaard"
 
 # reverter apenas um arquivo
-
 git checkout d8c5cba5c07dca87d18a3ecd63063a665c7894a9 -- functions\getRATGroup.R
-
-
-# -----------------------------------------------
-# CRIAR REPOSITÓRIO DO AWS
-
-# 1 - entrar no site da aws ( serviço code commit ) 
-https://sa-east-1.console.aws.amazon.com/codecommit/home?region=sa-east-1#/repository/list
-CONTA: 		sharecarebra
-USER: 		ssolution-nevesr
-PASSWORD: 	w][8m)M27OeT
-
-# 2 - create repository ( HTTPS )
-
-# 3 - clonar ( ver abaixo )
-
-
-# -----------------------------------------------
-# CLONAR REPOSITÓRIO DO AWS
-URL:      https://git-codecommit.sa-east-1.amazonaws.com/v1/repos/sharecare-onboarding
-USER:     ssolution-nevesr-at-450416240801
-PASSWORD: J+rfNtXX4rE71+/xcUvpMjzJJEvf5AzBvHT21mULHic=
-
-obs: na hora de clonar usei o SOURCE TREE pra forçar inserir usuário e senha.
-
-
-git clone https://git-codecommit.sa-east-1.amazonaws.com/v1/repos/onboarding-tools
-
-
 
 # visualizar arvore de branches
 gitk
