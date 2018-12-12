@@ -4,11 +4,13 @@
 # cria uma branch
 git checkout -b [name_of_your_new_branch]
 
-# remove uma branch local
-git branch -d krypto
+# remove uma branch
+git branch -d nome-da-branch             #local
+git push --delete origin nome-da-branch  #remoto
 
 #lista os branches
-git branch -a
+git branch    #local
+git branch -r #remoto
 
 # mescla branches
 git merge nome-outra-branch
@@ -18,7 +20,7 @@ git merge nome-outra-branch
 # ATUALIZANDO MEU FORK NO GITHUB
 
 # add o original como um novo remoto. ( isso cria a branch upstream/master)
-git remote add upstream https://github.com/SharebookBR/frontend.git
+git remote add upstream https://github.com/SharebookBR/sharebook-frontend.git
 
 # puxa os commits do original.
 git pull upstream master
@@ -61,7 +63,15 @@ git ls-remote --tags       # remoto
 
 # remove uma tag
 git tag -d v1.3.2                      # local
-git push --delete origin push v1.3.2   # remoto ( múliplos tags )
+git push --delete origin v8.0.0 v1.3.2   # remoto ( múliplos tags )
+
+
+# -----------------------------------------------
+# TRAZER APENAS 3 COMMITS DE OUTRA BRANCH
+
+git cherry-pick 5c4ed65
+git cherry-pick faa1bf9
+git cherry-pick 00fb29e
 
 
 # -----------------------------------------------
@@ -93,10 +103,31 @@ df239176e1a2ffac927d8b496ea00d5488481db5 a
 #alterar nome que aparece nas mensagens de commit
 git config --global user.name "Raffaello Damgaard"
 
+#salva senha pro git não ficar perguntando toda hora
+git push --set-upstream origin teste
+
+
 # reverter apenas um arquivo
 git checkout d8c5cba5c07dca87d18a3ecd63063a665c7894a9 -- functions\getRATGroup.R
 
 # visualizar arvore de branches
 gitk
 
+
+# AMEND - adicionar coisas ao commit anterior
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
+
+--no-edit # não muda a msg commit
+
+
+# -----------------------------------------------
+# PRUNE - remove branches locais que já foram removidas no remoto.
+
+# remove automático ** CUIDADO!! **
+git config remote.origin.prune true
+
+# força remover
+git fetch -p
 

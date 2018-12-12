@@ -21,4 +21,10 @@ ctrl + shift + t
 https://stackoverflow.com/questions/43427631/how-to-add-multiple-terminal-in-vs-code
 
 # abrir uma nova janela separada de CMD
-start cmd
+
+	estando no código:
+	
+	CTRL + SHIFT + C
+
+
+

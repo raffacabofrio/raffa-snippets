@@ -1,35 +1,71 @@
+# ----------------------------------------------
+# BASICS
+
 ## List Docker CLI commands
-docker
 docker container --help
 
 ## Display Docker version and info
-docker --version
 docker version
 docker info
 
-# mostra os containers
-docker ps -a
-
-# inicia o container 
-docker start dashboard
-
-# abre o shell do container
-docker exec -it dashboard bash
 
 
 # ----------------------------------------------
-# DASHBOARD
+# IMAGES ( similar a classes )
 
-# 1 - cria um container
-docker run --dashboard -it ubuntu
+# lista imagens
+docker images
 
-# 2 - atualiza o gerenciador de pacotes
+# baixa uma imagem
+docker pull ubuntu
+
+
+# ----------------------------------------------
+# CONTAINERS ( similar a objetos )
+
+# mostra os containers ( apenas rodando )
+docker ps
+
+# mostra os containers ( todos )
+docker ps -a
+
+# cria um novo container e executa o bash
+docker run -it ubuntu bash
+
+# executando bash num container já existente
+docker exec -i -t 98c5eff63d78 /bin/bash
+
+# removendo um container
+docker rm 0f218f400238
+
+
+# ----------------------------------------------
+# PROGRAMAS ÚTEIS NO BASH
+
+apt-get install htop
+apt-get install iputils-ping
+apt-get install nano
+
+
+
+## --------------------------------------------
+## ABRINDO O REDIS POR OUTRO DOCKER
+
+# rodar o docker redis
+docker run --name my-redis -d redis
+
+# obter ip do docker redis
+docker inspect 6d785e862b45
+ipAddress: 172.17.0.3
+
+#abre o container ubuntu
+docker exec -i -t 53be342209e6 bash
+
 apt-get update
-apt-get install curl
+apt-get redis-server
 
-# 3 - roda o script de instalação do dashboard
-curl -L https://raw.githubusercontent.com/deividsanches/deploy-shiny-server-dashboard/master/install-shiny.sh -o ~/configure-dashboard.sh && chmod +x ~/configure-dashboard.sh && ~/configure-dashboard.sh
-
+#conecta ao redis do outro
+redis-cli -h 172.17.0.3
 
 
 
