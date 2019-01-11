@@ -28,17 +28,13 @@ git pull upstream master
 # sobe os commits para o seu fork
 git push 
 
-# pull pelo upstream
-git pull upstream master
-
 
 
 # ---------------------------------------------
 # STASH
 
+# salva todo trabalho 
 git stash 
-
-git checkout -b crypto #muda de branch 
 
 git stash list
 
@@ -62,7 +58,7 @@ git tag                    # local
 git ls-remote --tags       # remoto
 
 # remove uma tag
-git tag -d v1.3.2                      # local
+git tag -d v1.3.2                        # local
 git push --delete origin v8.0.0 v1.3.2   # remoto ( múliplos tags )
 
 
@@ -75,11 +71,36 @@ git cherry-pick 00fb29e
 
 
 # -----------------------------------------------
-# DIVERSOS
+# DEU RUIM. COMO DESFAZER?
 
-# voltar a branch para um commit antigo
-git reset --hard 0d1d7fc32
-git push origin HEAD --force
+# undo de apenas um commit
+git revert 20acdf5a
+
+# reverter apenas um arquivo
+git checkout d8c5cba5c07dca87d18a3ecd63063a665c7894a9 -- functions\getRATGroup.R
+
+# faz a branch voltar no tempo *** CUIDADO!!! ***
+git reset --hard f414f31
+
+# daí força a branch remota a voltar no tempo também.
+git push --force
+
+
+
+# -----------------------------------------------
+# PRUNE - remove branches locais que já foram removidas no remoto.
+
+# remove automático ** CUIDADO!! **
+git config remote.origin.prune true
+
+# força remover
+git fetch -p
+
+
+
+
+# -----------------------------------------------
+# DIVERSOS
 
 # renomear um arquivo sem perder o histórico
 git mv src/crypto src/sulAmerica
@@ -90,9 +111,6 @@ git remote remove origin
 #desabilitar pre-commit
 renomear pasta "feingoldtech-dashboard\.git\hooks" >> "hooks.disabled"
 
-#undo de apenas um commit
-git revert 20acdf5a
-
 #mesclar dois commits
 git rebase --interactive HEAD~2
 
@@ -102,13 +120,10 @@ df239176e1a2ffac927d8b496ea00d5488481db5 a
 
 #alterar nome que aparece nas mensagens de commit
 git config --global user.name "Raffaello Damgaard"
+git config --global user.email "raffacabofrio@gmail.com"
 
 #salva senha pro git não ficar perguntando toda hora
 git push --set-upstream origin teste
-
-
-# reverter apenas um arquivo
-git checkout d8c5cba5c07dca87d18a3ecd63063a665c7894a9 -- functions\getRATGroup.R
 
 # visualizar arvore de branches
 gitk
@@ -122,12 +137,5 @@ git commit --amend
 --no-edit # não muda a msg commit
 
 
-# -----------------------------------------------
-# PRUNE - remove branches locais que já foram removidas no remoto.
 
-# remove automático ** CUIDADO!! **
-git config remote.origin.prune true
-
-# força remover
-git fetch -p
 
