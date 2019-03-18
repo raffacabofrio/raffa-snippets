@@ -16,18 +16,23 @@ git branch -r #remoto
 git merge nome-outra-branch
 
 
+
 # ---------------------------------------------
-# ATUALIZANDO MEU FORK NO GITHUB
+# TAG
 
-# add o original como um novo remoto. ( isso cria a branch upstream/master)
-git remote add upstream https://github.com/SharebookBR/sharebook-frontend.git
+# cria tag
+git tag v1.2.2
 
-# puxa os commits do original.
-git pull upstream master
+# sobe a tag
+git push origin --tags
 
-# sobe os commits para o seu fork
-git push 
+# lista tags
+git tag                    # local
+git ls-remote --tags       # remoto
 
+# remove uma tag
+git tag -d tag_pra_deletar                           # local
+git push --delete origin refs/tags/tag_pra_deletar   # remoto ( múliplos tags )
 
 
 # ---------------------------------------------
@@ -45,21 +50,17 @@ git stash clear
 
 
 # ---------------------------------------------
-# TAG
+# ATUALIZANDO MEU FORK NO GITHUB
 
-# cria tag
-git tag v1.2.2
+# add o original como um novo remoto. ( isso cria a branch upstream/master)
+git remote add upstream https://github.com/SharebookBR/sharebook-frontend.git
 
-# sobe a tag
-git push origin --tags
+# puxa os commits do original.
+git pull upstream master
 
-# lista tags
-git tag                    # local
-git ls-remote --tags       # remoto
+# sobe os commits para o seu fork
+git push 
 
-# remove uma tag
-git tag -d v1.3.2                        # local
-git push --delete origin v8.0.0 v1.3.2   # remoto ( múliplos tags )
 
 
 # -----------------------------------------------
@@ -85,6 +86,20 @@ git reset --hard f414f31
 # daí força a branch remota a voltar no tempo também.
 git push --force
 
+
+# -----------------------------------------------
+# REMOVER ARQUIVO DE TODO HISTÓRICO
+# projeto open: https://rtyley.github.io/bfg-repo-cleaner/
+
+# 1 - clone de um tipo especial que permite mecher no histórico
+git clone --mirror https://sharecarebr-raffaelloneves@bitbucket.org/sharecarebrteam/sharecarebr-nodejs-dashboard-jobs.git
+
+# 2 - roda o projeto
+bgf='/c/_REPOSITORIOS/bfg-1.13.0.jar'
+java -jar $bgf --delete-files env.js sharecarebr-nodejs-dashboard-jobs.git
+
+# 3 - push
+git push
 
 
 # -----------------------------------------------
@@ -135,6 +150,26 @@ git add forgotten_file
 git commit --amend
 
 --no-edit # não muda a msg commit
+
+
+# -----------------------------------------------
+# ESTRATÉGIAS DE MERGE
+
+EXPLICIT MERGES ( NON FAST-FOWARD ) 
+ - cria um único commit na MASTER contendo tudo que foi feito na FEATURE.
+ - tem maior rastreabilidade e contexto.
+
+IMPLICIT MERGE ( FAST-FOWARD ) 
+ - copia todos os commits da FEATURE e fazem parte do histórico da MASTER.
+ - perde histórico de onde nasceu o commit.
+ 
+SQUASH ON MERGE
+ - junta tudo num único commit na branch feature, e manda esse comitão pra master.
+ - parece ser o pior de todos em termos de rastreabilidade.
+ 
+ 
+
+
 
 
 
