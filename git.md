@@ -103,6 +103,16 @@ git push
 
 
 # -----------------------------------------------
+# LIMPAR HISTÓRICO. MESCLAR COMMITS.
+# fonte: https://www.internalpointers.com/post/squash-commits-into-one-git
+
+# escolha o commit mais velho que NÂO vai ser mesclado.
+git rebase --interactive 4c5087f
+
+# coloque 'pick' no commit desejado e 'squash' nos demais.
+
+
+# -----------------------------------------------
 # PRUNE - remove branches locais que já foram removidas no remoto.
 
 # remove automático ** CUIDADO!! **
