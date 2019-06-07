@@ -15,6 +15,8 @@ git branch -r #remoto
 # mescla branches
 git merge nome-outra-branch
 
+# checkout para uma branch remota que ainda não existe local.
+git checkout --track origin/develop
 
 
 # ---------------------------------------------
