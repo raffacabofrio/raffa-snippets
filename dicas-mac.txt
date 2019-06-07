@@ -1,0 +1,85 @@
+DICAS MAC
+
+——————————————————————
+SISTEMA OPERACIONAL
+
+CTRL + CMD + Q
+Bloqueia a tela.
+
+FN + DELETE
+Backspace
+
+HOME
+FN + SETA ESQUERDA
+
+END
+FN + SETA DIREITA
+
+BUSCA E ABRE APP
+Command + space
+
+VER USO DE MEMORIA E PROCESSADOR
+Activity monitor
+
+VER O USO DO HD
+Disk utility
+
+MATAR UM PROGRAMA
+Option + cmd + esc
+
+Janelas lado a lado
+- Arrastar a janela pro canto usando o icone verde.
+
+Gerenciar mesas
+- Arrastar com 3 dedos.
+
+
+
+——————————————————————
+BASH
+
+VAI PRA PASTA DO MEU USUARIO 
+cd ~/
+Cd —
+
+Abrir finder pelo bash
+Open .
+
+Intalar o htop
+brew install htop
+- Brew eh equivalente ao ‘apt-get’ do ubuntu.
+
+
+
+
+——————————————————————
+ITERM 2
+
+Tipo um terminator. Abre vários terminais.
+
+Command + shitf + d : divide em janelas horizontalmente
+Command + d: verticalmente
+Command + w : fecha a aba
+
+
+——————————————————————
+CHROME
+
+equivalente ao CTRL + F5
+CM + R
+
+Developer tools
+OPT + CMD + I
+F12 (mantenha pressionado fn pra aparecer no touchbar)
+
+
+
+
+
+
+
+
+
+
+
+
