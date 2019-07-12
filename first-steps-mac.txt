@@ -27,7 +27,15 @@ DONE
 
 CONFIGURAÇÕES DONE
 - Abrir vs code pelo finder. https://github.com/sozercan/OpenInCode 
-- Abrir bash pelo finder. https://github.com/Ji4n1ng/OpenInTerminal 
+
+- Abrir bash pelo finder.
+
+https://github.com/jbtule/cdto#cd-to
+
+opção antiga que parou de funcionar :/
+https://github.com/Ji4n1ng/OpenInTerminal 
+
+
 - Instalar “Oh My Zsh”.  https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/ 
 - Obter “Meus Documentos” do note velho.
 
