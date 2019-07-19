@@ -72,6 +72,15 @@ Developer tools
 OPT + CMD + I
 F12 (mantenha pressionado fn pra aparecer no touchbar)
 
+——————————————————————
+SSH 
+
+Gerar uma chave ssh.
+ssh-keygen
+
+Copiar minha chave para clipboard.
+pbcopy < ~/.ssh/id_rsa.pub
+
 
 
 
