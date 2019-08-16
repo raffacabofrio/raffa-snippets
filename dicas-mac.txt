@@ -94,7 +94,11 @@ Control + Command + barra de espaço
 
 
 
+------------------------
+FINDER 
 
+mostrar arquivos ocultos
+SHIFT + CM + . 
 
 
 
