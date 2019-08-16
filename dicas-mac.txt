@@ -33,6 +33,10 @@ Janelas lado a lado
 Gerenciar mesas
 - Arrastar com 3 dedos.
 
+DOCK ( similar ao start bar do windows )
+Mover para o monitor desejado.
+- Mover o mouse pro centro da tela, em seguida descer tudo.
+
 
 
 ——————————————————————
@@ -82,7 +86,11 @@ Copiar minha chave para clipboard.
 pbcopy < ~/.ssh/id_rsa.pub
 
 
+------------------------
+EMOTICONS
 
+Em qualquer campo de texto.
+Control + Command + barra de espaço
 
 
 
