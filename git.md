@@ -88,6 +88,11 @@ git reset --hard f414f31
 # daí força a branch remota a voltar no tempo também.
 git push --force
 
+# força a branch develop ficar igual master
+git checkout develop
+git reset --hard master
+git push --force
+
 
 # -----------------------------------------------
 # REMOVER ARQUIVO DE TODO HISTÓRICO
