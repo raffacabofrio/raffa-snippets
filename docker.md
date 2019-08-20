@@ -19,6 +19,10 @@ docker images
 # baixa uma imagem
 docker pull ubuntu
 
+# cria um nova imagem
+# ( antes gerar arquivo Dockerfile na mesma pasta que vai rodar )
+docker build -t my_app .
+
 
 # ----------------------------------------------
 # CONTAINERS ( similar a objetos )
@@ -34,6 +38,10 @@ docker run -it ubuntu bash
 
 # executando bash num container já existente
 docker exec -i -t 98c5eff63d78 /bin/bash
+
+
+#parar um container
+Docker stop 6c179d953e7d
 
 # removendo um container
 docker rm 0f218f400238
