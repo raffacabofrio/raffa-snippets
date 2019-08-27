@@ -100,6 +100,10 @@ FINDER
 mostrar arquivos ocultos
 SHIFT + CM + . 
 
+navegar em fotos.
+- clique na foto e pressione ESPAÇO.
+- depois use as setas pra navegar.
+
 
 
 
