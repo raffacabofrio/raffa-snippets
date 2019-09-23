@@ -3,6 +3,7 @@
 
 # comenta/descomenta um trecho de código
 ctrl + ; 
+cmd + /
 
 # lista os métodos do arquivo ( similar ao eclipse )
 ctrl + shift + o
@@ -36,4 +37,6 @@ div#app.estilo1 + enter >> <div id="app" class="estilo1"></div>
 Abrir um novo arquivo. Ir no rodapé e estar a linguagem pra HTML.
 Digitar html, aguardar o autocomplete e selecionar html5.
 Vai gerar uma página padrão completa.
+
+digitar template e gerar <template></template> rapidamente.
 
