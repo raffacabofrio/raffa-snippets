@@ -76,5 +76,21 @@ apt-get redis-server
 redis-cli -h 172.17.0.3
 
 
+## --------------------------------------------
+## DOCKER COMPOSER
+
+# uma rede de vários containers que se comunicam, pra compor uma solução
+# exemplo PHP + MYSQL + REDIS
+
+# crie os arquivos dockerfile e docker-compose.yml (pegar colinha da neocomponente)
+
+# roda o app
+docker-compose up
+
+# para o app
+docker-compose down
+
+# força o build
+docker-compose up -- build
 
 
