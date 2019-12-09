@@ -1,5 +1,4 @@
 # -------------------------------------------
-
 # BRANCH
 
 # cria uma branch
@@ -24,7 +23,6 @@ git merge nome-outra-branch
 git checkout --track origin/develop
 
 # ---------------------------------------------
-
 # TAG
 
 # cria tag
@@ -46,7 +44,6 @@ git tag -d tag_pra_deletar # local
 git push --delete origin refs/tags/tag_pra_deletar # remoto ( múliplos tags )
 
 # ---------------------------------------------
-
 # STASH
 
 # salva todo trabalho
@@ -60,8 +57,14 @@ git stash pop
 #limpa stashes indesejados
 git stash clear
 
-# ---------------------------------------------
 
+# ---------------------------------------------
+# NOME E EMAIL
+
+git config --global user.name "Raffaello Damgaard"
+git config --global user.email johndoe@example.com
+
+# ---------------------------------------------
 # ATUALIZANDO MEU FORK NO GITHUB
 
 # add o original como um novo remoto. ( isso cria a branch upstream/master)
@@ -216,3 +219,4 @@ SQUASH ON MERGE
 
 - junta tudo num único commit na branch feature, e manda esse comitão pra master.
 - parece ser o pior de todos em termos de rastreabilidade.
+
