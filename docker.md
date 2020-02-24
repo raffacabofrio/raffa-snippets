@@ -39,8 +39,12 @@ docker run -it ubuntu bash
 # executando bash num container já existente
 docker exec -i -t 98c5eff63d78 /bin/bash
 
+# -v >> VOLUME
+# roda um container com uma pasta compartilhada local
+docker run -p "80:80" -v $PWD:/var/www/html -d php/debug
 
-#parar um container
+
+# parar um container
 Docker stop 6c179d953e7d
 
 # removendo um container
