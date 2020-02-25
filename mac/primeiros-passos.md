@@ -1,13 +1,4 @@
-TODO MACBOOK
-
-
-TODO
-
-- Add impressora.
-
-
-
-DONE
+# APPS ESSENCIAIS
 - Gimp
 - Vs code
 - Node
@@ -26,7 +17,7 @@ DONE
 
 
 CONFIGURAÇÕES DONE
-- Abrir vs code pelo finder. https://github.com/sozercan/OpenInCode 
+- Abrir vs code pelo finder. https://github.com/sozercan/OpenInCode
 
 - Abrir bash pelo finder.
 
