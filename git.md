@@ -68,16 +68,16 @@ git config --global user.email johndoe@example.com
 # ATUALIZANDO MEU FORK NO GITHUB
 
 # add o original como um novo remoto. ( isso cria a branch upstream/master)
-
 git remote add upstream https://github.com/SharebookBR/sharebook-frontend.git
 
 # puxa os commits do original.
-
 git pull upstream master
 
 # sobe os commits para o seu fork
-
 git push
+
+# altera o origin
+git remote set-url origin https://github.com/raffacabofrio/php7-apache2-docker.git
 
 # -----------------------------------------------
 
