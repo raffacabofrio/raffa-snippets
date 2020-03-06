@@ -62,7 +62,7 @@ git stash clear
 # NOME E EMAIL
 
 git config --global user.name "Raffaello Damgaard"
-git config --global user.email johndoe@example.com
+git config --global user.email raffaello.neves@somospi.com.br
 
 # ---------------------------------------------
 # ATUALIZANDO MEU FORK NO GITHUB
@@ -112,6 +112,12 @@ git push --force
 git checkout develop
 git reset --hard master
 git push --force
+
+# força o pull
+
+git fetch --all
+git reset --hard origin/master
+git pull origin master
 
 # -----------------------------------------------
 
