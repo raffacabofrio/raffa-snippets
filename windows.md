@@ -1,0 +1,2 @@
+printscreen
+WINDOWS + SHIFT + S
