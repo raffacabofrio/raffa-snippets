@@ -38,3 +38,7 @@ response.end();
 - body-parser >> meu favorito.
 
 
+# REQUIRE VS IMPORT
+- require é o mais antigo, criado pelo node.
+- import é ES6. (ES2015) Faz parte da linguagem agora.
+- São praticamente iguais.
