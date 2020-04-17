@@ -166,12 +166,13 @@ git fetch -p
 
 # DIVERSOS
 
-# renomear um arquivo sem perder o histórico
+# set nano as defaut editor
+git config --global core.editor "nano"
 
+# renomear um arquivo sem perder o histórico
 git mv src/crypto src/sulAmerica
 
 # remover o remote
-
 git remote remove origin
 
 #desabilitar pre-commit
