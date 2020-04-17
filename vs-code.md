@@ -40,3 +40,7 @@ Vai gerar uma página padrão completa.
 
 digitar template e gerar <template></template> rapidamente.
 
+
+# Limpar o bash
+cmd + k
+
