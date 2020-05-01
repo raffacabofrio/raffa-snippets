@@ -39,3 +39,11 @@ const myDiv = styled.div`
 		...
 	}
 `
+
+# inner element style
+const myDiv = styled.div`
+	...
+	img{
+		...
+	}
+`
