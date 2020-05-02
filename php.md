@@ -10,3 +10,5 @@ php -S 0.0.0.0:3001 -t /app
 # lista de componentes do composer
 https://packagist.org/?query=pdf
 
+# cria um projeto do zero
+composer init
