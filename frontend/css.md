@@ -15,3 +15,14 @@ grid-column-gap: 10px >> espaçamento entre os elementos.
 
 # gerador de box shadow
 https://www.cssmatic.com/box-shadow
+
+# css variables - sintaxe estranha.
+```css
+:root {
+	--my_var: #fff
+}
+
+#my_div {
+	background-color: var(--my_var)
+}
+```
