@@ -209,7 +209,6 @@ git commit --amend
 git remote set-url origin https://sharecarebr-raffaelloneves@bitbucket.org/sharecarebrteam/sharecarebr-html-staticpage.git
 
 # -----------------------------------------------
-
 # ESTRATÉGIAS DE MERGE
 
 EXPLICIT MERGES ( NON FAST-FOWARD )
