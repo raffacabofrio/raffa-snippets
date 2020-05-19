@@ -109,3 +109,10 @@ obter meu ip na rede interna
 ifconfig | grep "inet " | grep -v 127.0.0.1
 
 
+------------------------
+GITK
+
+brew update 
+brew install git
+brew install git-gui
+
