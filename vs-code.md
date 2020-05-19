@@ -46,3 +46,6 @@ cmd + k
 
 # abrir uma nova janela do bash
 open -a Terminal "`pwd`"
+
+# mostrar/esconder bash rapidamente
+CTRL + `
