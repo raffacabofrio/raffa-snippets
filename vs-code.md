@@ -44,3 +44,5 @@ digitar template e gerar <template></template> rapidamente.
 # Limpar o bash
 cmd + k
 
+# abrir uma nova janela do bash
+open -a Terminal "`pwd`"
