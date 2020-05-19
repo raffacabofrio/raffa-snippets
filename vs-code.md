@@ -49,3 +49,7 @@ open -a Terminal "`pwd`"
 
 # mostrar/esconder bash rapidamente
 CTRL + `
+
+# gitk parou de funcionar dentro do vs code. O que fazer?
+- system preferences >> Security & privacy >> Developer Tools
+- + vs code na lista.
