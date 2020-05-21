@@ -119,6 +119,10 @@ git fetch --all
 git reset --hard origin/master
 git pull origin master
 
+# comitei sem querer. Quero voltar pra unstaged pra comitar de novo. 
+# sem perder o que fiz. Apenas criar outro commit mais organizado.
+git reset --soft HEAD^
+
 # -----------------------------------------------
 
 # REMOVER ARQUIVO DE TODO HISTÓRICO
