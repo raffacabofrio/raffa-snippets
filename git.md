@@ -1,3 +1,4 @@
+```bash
 # -------------------------------------------
 # BRANCH
 
@@ -113,6 +114,10 @@ git checkout develop
 git reset --hard master
 git push --force
 
+# cuidado pra ver se o remote está correto.
+# procure pela branch develop
+nano .git/config
+
 # força o pull
 
 git fetch --all
@@ -211,6 +216,8 @@ git commit --amend
 # atualiza a url do repositório remoto.
 
 git remote set-url origin https://sharecarebr-raffaelloneves@bitbucket.org/sharecarebrteam/sharecarebr-html-staticpage.git
+
+```
 
 # -----------------------------------------------
 # ESTRATÉGIAS DE MERGE
