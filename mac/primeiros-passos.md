@@ -24,13 +24,13 @@ CONFIGURAÇÕES DONE
 https://github.com/jbtule/cdto#cd-to
 
 opção antiga que parou de funcionar :/
-https://github.com/Ji4n1ng/OpenInTerminal 
+https://github.com/Ji4n1ng/OpenInTerminal
 
 
-- Instalar “Oh My Zsh”.  https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/ 
+- Instalar “Oh My Zsh”. https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 - Obter “Meus Documentos” do note velho.
 
-- Obter SQLs do NAVCAT. /Users/ssolution-nevesr/Library/Application Support/PremiumSoft CyberTech/Navicat for MySQL
+- Obter SQLs do NAVCAT./Users/ssolution-nevesr/Library/Application Support/PremiumSoft CyberTech/Navicat for MySQL
 
 NOTE VELHO
 - Remover google drive.
@@ -43,6 +43,6 @@ VS CODE EXTENSIONS
 - Bookmarks
 - GitLens
 
-EMOJIS TOOLBAR https://github.com/gabriellorin/touch-bar-emojis
+EMOJIS TOOLBARhttps://github.com/gabriellorin/touch-bar-emojis
 
 

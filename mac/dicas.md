@@ -104,7 +104,6 @@ navegar em fotos.
 - clique na foto e pressione ESPAÇO.
 - depois use as setas pra navegar.
 
-
 obter meu ip na rede interna
 ifconfig | grep "inet " | grep -v 127.0.0.1
 
@@ -116,3 +115,9 @@ brew update
 brew install git
 brew install git-gui
 
+
+------------------------
+PERGUNTAS E RESPOSTAS
+
+Como instalar uma fonte no mac?
+- Abrir o app "font book" e instalar por lá.

@@ -70,7 +70,7 @@ docker run --name my-redis -d redis
 docker inspect 6d785e862b45
 ipAddress: 172.17.0.3
 
-#abre o container ubuntu
+# abre o container ubuntu
 docker exec -i -t 53be342209e6 bash
 
 apt-get update
