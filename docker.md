@@ -97,4 +97,5 @@ docker-compose down
 # força o build
 docker-compose up -- build
 
-
+# fazer o docker acessar um serviço que está na sua máquina. Ex MYSQL.
+apenas troque localhost por host.docker.internal.
