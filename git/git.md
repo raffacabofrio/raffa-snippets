@@ -58,13 +58,6 @@ git stash pop
 #limpa stashes indesejados
 git stash clear
 
-
-# ---------------------------------------------
-# NOME E EMAIL
-
-git config --global user.name "Raffaello Damgaard"
-git config --global user.email raffaello.neves@somospi.com.br
-
 # ---------------------------------------------
 # ATUALIZANDO MEU FORK NO GITHUB
 
