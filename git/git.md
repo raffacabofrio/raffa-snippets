@@ -44,19 +44,6 @@ git ls-remote --tags # remoto
 git tag -d tag_pra_deletar # local
 git push --delete origin refs/tags/tag_pra_deletar # remoto ( múliplos tags )
 
-# ---------------------------------------------
-# STASH
-
-# salva todo trabalho
-
-git stash
-
-git stash list
-
-git stash pop
-
-#limpa stashes indesejados
-git stash clear
 
 # ---------------------------------------------
 # ATUALIZANDO MEU FORK NO GITHUB
