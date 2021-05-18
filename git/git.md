@@ -51,6 +51,9 @@ git push --delete origin refs/tags/tag_pra_deletar # remoto ( múliplos tags )
 # add o original como um novo remoto. ( isso cria a branch upstream/master)
 git remote add upstream https://github.com/SharebookBR/sharebook-frontend.git
 
+# obtem o remoto mais recente
+git fetch --all
+
 # faz sua branch nascer de novo a partir da branch principal
 git rebase upstream/master --committer-date-is-author-date
 
