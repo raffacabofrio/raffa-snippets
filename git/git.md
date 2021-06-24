@@ -99,11 +99,12 @@ git push --force
 # procure pela branch develop
 nano .git/config
 
-# força o pull
-
+# força o histórico ficar igual UPSTREAM
 git fetch --all
-git reset --hard origin/master
-git pull origin master
+git reset --hard upstream/develop
+
+# importante pro push ir pro lugar certo. cuidado!
+git push --force --set-upstream origin develop
 
 # comitei sem querer. Quero voltar pra unstaged pra comitar de novo. 
 # sem perder o que fiz. Apenas criar outro commit mais organizado.
