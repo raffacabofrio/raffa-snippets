@@ -15,6 +15,9 @@ git push --delete origin nome-da-branch #remoto
 git branch #local
 git branch -r #remoto
 
+# busca branches remotas com develop no nome
+git branch --remote --list *develop*
+
 # mescla branches
 
 git merge nome-outra-branch
