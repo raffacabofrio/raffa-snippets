@@ -8,3 +8,6 @@ Copie o arquivo .suo que fica em "D:\Apps\korus\src\.vs\Digitalmed\v16"
 # Usar o git bash dentro do vs.
 https://stackoverflow.com/questions/8025108/integrating-git-bash-with-visual-studio
 
+# Add summary rapidamente.
+digite /// acima do método.
+
