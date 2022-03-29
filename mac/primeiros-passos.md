@@ -39,10 +39,11 @@ NOTE VELHO
 
 VS CODE EXTENSIONS
 - Rainbow Brackets
-- CSS Peek
+- CSS Peeks
 - Bookmarks
 - GitLens
 
-EMOJIS TOOLBARhttps://github.com/gabriellorin/touch-bar-emojis
+EMOJIS TOOLBAR
+https://github.com/gabriellorin/touch-bar-emojis
 
 

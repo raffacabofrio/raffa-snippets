@@ -1,7 +1,7 @@
 DICAS MAC
 
-——————————————————————
-SISTEMA OPERACIONAL
+-------------------------------------------------------------------
+# SISTEMA OPERACIONAL
 
 CTRL + CMD + Q
 Bloqueia a tela.
@@ -39,15 +39,25 @@ Mover para o monitor desejado.
 
 
 
-——————————————————————
-BASH
+-------------------------------------------------------------------
+# SUBLIME
+
+uppercase
+CMD + K, CMD + U
+
+
+
+
+-------------------------------------------------------------------
+# BASH
 
 VAI PRA PASTA DO MEU USUARIO 
 cd ~/
 Cd —
 
 Abrir finder pelo bash
-Open .
+Open . 
+
 
 Intalar o htop
 brew install htop
@@ -56,8 +66,8 @@ brew install htop
 
 
 
-——————————————————————
-ITERM 2
+-------------------------------------------------------------------
+# ITERM 2
 
 Tipo um terminator. Abre vários terminais.
 
@@ -66,17 +76,17 @@ Command + d: verticalmente
 Command + w : fecha a aba
 
 
-——————————————————————
-CHROME
+-------------------------------------------------------------------
+# CHROME
 
 equivalente ao CTRL + F5
 CM + R
 
 Developer tools
 OPT + CMD + I
-F12 (mantenha pressionado fn pra aparecer no touchbar)
+FN + F12
 
-——————————————————————
+-------------------------------------------------------------------
 SSH 
 
 Gerar uma chave ssh.
@@ -86,7 +96,7 @@ Copiar minha chave para clipboard.
 pbcopy < ~/.ssh/id_rsa.pub
 
 
-------------------------
+-------------------------------------------------------------------
 EMOTICONS
 
 Em qualquer campo de texto.
@@ -94,7 +104,7 @@ Control + Command + barra de espaço
 
 
 
-------------------------
+-------------------------------------------------------------------
 FINDER 
 
 mostrar arquivos ocultos
@@ -108,7 +118,7 @@ obter meu ip na rede interna
 ifconfig | grep "inet " | grep -v 127.0.0.1
 
 
-------------------------
+-------------------------------------------------------------------
 GITK
 
 brew update 
@@ -116,7 +126,7 @@ brew install git
 brew install git-gui
 
 
-------------------------
+-------------------------------------------------------------------
 PERGUNTAS E RESPOSTAS
 
 Como instalar uma fonte no mac?
