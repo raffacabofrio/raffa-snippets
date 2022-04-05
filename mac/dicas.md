@@ -1,7 +1,10 @@
-DICAS MAC
+# DICAS MAC
 
 -------------------------------------------------------------------
 # SISTEMA OPERACIONAL
+
+RENOMEAR UM ARQUIVO
+selecione e digite ENTER.
 
 CTRL + CMD + Q
 Bloqueia a tela.
@@ -37,6 +40,9 @@ DOCK ( similar ao start bar do windows )
 Mover para o monitor desejado.
 - Mover o mouse pro centro da tela, em seguida descer tudo.
 
+emotions
+Control + Command + barra de espaço
+
 
 
 -------------------------------------------------------------------
@@ -45,6 +51,12 @@ Mover para o monitor desejado.
 uppercase
 CMD + K, CMD + U
 
+MOVER LINHA
+CTRL + CMD + SETAS
+
+MULTILINE SELECT
+CTRL + SHIFT
+
 
 
 
@@ -52,8 +64,7 @@ CMD + K, CMD + U
 # BASH
 
 VAI PRA PASTA DO MEU USUARIO 
-cd ~/
-Cd —
+cd ~/ 
 
 Abrir finder pelo bash
 Open . 
@@ -96,11 +107,8 @@ Copiar minha chave para clipboard.
 pbcopy < ~/.ssh/id_rsa.pub
 
 
--------------------------------------------------------------------
-EMOTICONS
 
-Em qualquer campo de texto.
-Control + Command + barra de espaço
+
 
 
 
