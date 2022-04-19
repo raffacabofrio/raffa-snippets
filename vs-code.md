@@ -5,6 +5,9 @@
 ctrl + ; 
 cmd + /
 
+# move uma linha
+ALT + UP/DOWN
+
 # lista os métodos do arquivo ( similar ao eclipse )
 ctrl + shift + o
 
