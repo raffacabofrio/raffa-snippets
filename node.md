@@ -1,3 +1,20 @@
+# NVM - Node Version Manager
+
+- [Instalador para windows](https://github.com/coreybutler/nvm-windows)
+
+```bash
+
+# instalar o node 16
+nvm install 16
+
+
+# usar o node 16
+nvm use 16.15.1
+
+```
+
+
+
 # DICAS NODE 
 
 ```javascript
@@ -10,7 +27,7 @@ response.send('hello world')
 response.end();
 
 ```
-# --------------------------------------------------------------------------------
+
 # EXPRESS - TIPOS DE MIDDLEWARES
 
 *aplicativo*
