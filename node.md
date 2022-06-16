@@ -7,6 +7,8 @@
 # instalar o node 16
 nvm install 16
 
+# listar os nodes disponíveis
+nvm list
 
 # usar o node 16
 nvm use 16.15.1
