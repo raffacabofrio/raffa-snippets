@@ -1,5 +1,19 @@
 # DICAS VS CODE
 
+windows e mac
+
+
+# build
+windows ???
+shift + cmd + b
+
+# go -1
+windows ???
+ctrl + -
+
+# multiline edit
+windows ???
+option + cmd + seta cima ou baixo
 
 # comenta/descomenta um trecho de código
 ctrl + ; 
@@ -7,6 +21,7 @@ cmd + /
 
 # move uma linha
 ALT + UP/DOWN
+option + UP/DOWN
 
 # lista os métodos do arquivo ( similar ao eclipse )
 ctrl + shift + o
@@ -33,6 +48,7 @@ ctrl + k, ctrl + 0
 
 # UNFOLD FUNCTIONS
 ctrl + k, ctrl + J
+cmd + k, cmd + 0
 
 # Gerar HTML rapidamente
 div#app.estilo1 + enter >> <div id="app" class="estilo1"></div>
