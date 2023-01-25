@@ -10,7 +10,7 @@ nvm install 16
 # listar os nodes disponíveis
 nvm list
 
-# usar o node 16
+# usar o node 16 ( talvez precise rodar como adm pra funcionar )
 nvm use 16.15.1
 
 ```
