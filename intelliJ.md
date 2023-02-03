@@ -20,4 +20,7 @@ CTRL + ALT + L
 # starta a aplicação
 SHIFT + F9
 
+# mostra o arquivo atual na project tree
+ALT + F1
+
 ```
