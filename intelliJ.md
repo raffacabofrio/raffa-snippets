@@ -24,3 +24,7 @@ SHIFT + F9
 ALT + F1
 
 ```
+
+## Configurando o ambiente
+1 - Colocar as teclas de atalho do vs code.
+2 - Instalar o plugin do sonar lint.
