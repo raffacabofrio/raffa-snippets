@@ -26,5 +26,5 @@ ALT + F1
 ```
 
 ## Configurando o ambiente
-- 1 - Colocar as teclas de atalho do vs code.
+- 1 - Colocar as teclas de atalho do vs code. [clique aqui](https://plugins.jetbrains.com/plugin/12062-vscode-keymap)
 - 2 - Instalar o plugin do sonar lint.
