@@ -14,3 +14,13 @@ digite /// acima do método.
 
 ## Usar as teclas de atalho do vs code.
 https://stackoverflow.com/questions/62050877/make-visual-studio-use-vs-code-shortcut-keys-key-bindings
+
+
+# Teclas de atalho
+F12        >> definition
+CTRL + F12 >> implementation
+
+Ctrl + M, O >> colapsar todos os membros da classe
+Ctrl + M, L >> expandir 
+
+CTRK + R, G >> remove and sort using
