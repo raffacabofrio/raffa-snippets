@@ -24,3 +24,6 @@ Ctrl + M, O >> colapsar todos os membros da classe
 Ctrl + M, L >> expandir 
 
 CTRK + R, G >> remove and sort using
+
+CTRL + P >> abre um arquivo
+CTRL + T >> procura um método
