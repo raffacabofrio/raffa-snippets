@@ -2,7 +2,7 @@
 
 - [Instalador para windows](https://github.com/coreybutler/nvm-windows)
 
-- Atenção. Não funcionar no powershell. Usar no CMD.
+- Atenção. Não funciona no powershell. Usar no CMD.
 
 ```bash
 
@@ -63,4 +63,5 @@ response.end();
 - require é o mais antigo, criado pelo node.
 - import é ES6. (ES2015) Faz parte da linguagem agora.
 - São praticamente iguais.
+
 
